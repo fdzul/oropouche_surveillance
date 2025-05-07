@@ -36,13 +36,6 @@ execute:
 
 ![](https://github.com/fdzul/entomological_surveillance_oropouche_mexico/blob/main/imagenes/logo.jpeg?raw=true){.absolute top="300" left="900" width="950"}
 
-```{r setup}
-#| echo: false
-library(sf)
-mapview::mapviewOptions(default = TRUE,
-                        basemaps.color.shuffle = FALSE)
-```
-
 
 
 ## [Temario]{style="color:#003300;"}
@@ -83,45 +76,114 @@ mapview::mapviewOptions(default = TRUE,
 
 
 ## [Riesgo de Transmisión de Oropouche en las Américas^[Romero‑Alvarez et al 2023]]{.r-fit-text style="color:#003300;"}
+<hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
 
 ![](https://media.springernature.com/full/springer-static/image/art%3A10.1186%2Fs40249-023-01091-2/MediaObjects/40249_2023_1091_Fig3_HTML.png?as=webp){.absolute top="150" left="50" width="3500"}
 
 
 
 ## [Riesgo de Transmisión de Oropouche en las Américas^[Romero‑Alvarez et al 2023]]{.r-fit-text style="color:#003300;"}
+<hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
 
 ![](https://media.springernature.com/full/springer-static/image/art%3A10.1186%2Fs40249-023-01091-2/MediaObjects/40249_2023_1091_Fig4_HTML.png?as=webp){.absolute top="150" left="50" width="3500"}
 
 
 
 ## [Riesgo de Transmisión de Oropouche en las Américas^[[Romero‑Alvarez et al 2023](https://idpjournal.biomedcentral.com/articles/10.1186/s40249-023-01091-2)]]{.r-fit-text style="color:#003300;"}
+<hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
 
 ![](https://media.springernature.com/full/springer-static/image/art%3A10.1186%2Fs40249-023-01091-2/MediaObjects/40249_2023_1091_Fig6_HTML.png?as=webp){.absolute top="150" left="50" width="3500"}
 
 
 ## [Ecología espacio-temporal del Oropouche en las Américas^[ Fischer et al]]{.r-fit-text style="color:#003300;"}
+<hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
 
 ![](https://www.thelancet.com/cms/10.1016/S1473-3099(25)00110-0/asset/1a12e24f-c710-4ddb-a312-8023fed9239c/main.assets/gr1.jpg){.absolute top="100" left="250" width="950"}
 
 
 ## [Ecología espacio-temporal del Oropouche en las Américas^[[Fischer et al](https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(25)00110-0/fulltext)]]{.r-fit-text style="color:#003300;"}
+<hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
 
 ![](fig1.png){.absolute top="150" left="50" width="3500"}
 
 
 ## [Registros de la presencia de *Culicoides paraensis* en México]{.r-fit-text style="color:#003300;"}
+<hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
+
+```{r echo=FALSE,table_records}
+# Step 1. load the C. paraensis Dataset ####
+load("~/Dropbox/projects/ETV/culicoides_paraensis/8.RData/culicoide_paraensis.RData")
 
 
+# Step 2. make the table ####
+x |>
+    dplyr::arrange(year) |>
+    gt::gt() |>
+    gt::tab_options(table.font.size = 30)
+
+```
 
 
 ## [Distribución de *Culicoides Paraensis* en México]{.r-fit-text style="color:#003300;"}
-
-
- 
-## [Información Básica para los Modelos de Nicho Ecológico]{.r-fit-text style="color:#003300;"}
 <hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
 
-![](soley_guardia_2024.jpg){fig-align="center" height="900"}
+```{r dist_c_paraensis, echo=FALSE}
+#| column: screen-inset-shaded
+#| out-width: "2000"
+#| out-height: "900"
+library(sf)
+library(leaflet)
+mapview::mapviewOptions(default = TRUE,
+                        basemaps.color.shuffle = FALSE)
+# Step 1. load the C. paraensis Dataset ####
+load("~/Dropbox/projects/ETV/culicoides_paraensis/8.RData/records/culicoides_paraensis.RData")
+# Step 2. make the maps####
+mapview::mapview(xy,
+                 col.regions = "#0F9D58",
+                 color = "#DB4437",
+                 layer.name = "Culicoides parensis")
+ 
+```
 
+ 
+## [Nicho Ecológico de *Culicoides Paraensis* en México]{.r-fit-text style="color:#003300;"}
+<hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
+
+```{r sdm_paraensis, echo=FALSE}
+#| column: screen-inset-shaded
+#| out-width: "2000"
+#| out-height: "900"
+
+# Step 1. load the C. paraensis Dataset ####
+load("~/Dropbox/projects/ETV/culicoides_paraensis/8.RData/records/culicoides_paraensis.RData")
+# Step 1. load the maps ####
+paraensis <- terra::rast("/Users/felipedzul/Dropbox/projects/ETV/culicoides_paraensis/09.output/pred_culicoides_paraensis_bio_crop.tif")
+
+
+# Step 2. make ####
+edos <- rgeomex::AGEE_inegi19_mx
+#mpos <- rgeomex::AGEM_inegi19_mx
+
+
+mapview::mapview(paraensis,
+                 #col.regions = NA,
+                 legend =T,
+                 layer.name = "Probababilidad",
+                 #alpha.regions = 0.0,
+                 color = "gray90") +
+        mapview::mapview(xy,
+                         col.regions = "#4285F4",
+                         color = "white",
+                        layer.name = "Culicoides parensis") +
+    mapview::mapview(edos,
+                     alpha.regions = 0.0,
+                     color = "gray80",
+                     col.regions = NA)
+
+```
+
+
+## [felipe]{.r-fit-text style="color:#003300;"}
+<hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
 
 
