@@ -1,0 +1,79 @@
+---
+format: 
+  revealjs:
+    #theme: ["theme/q-theme.scss"]
+    slide-number: c/t
+    logo: "https://www.insp.mx/assets/images/insp.png"
+    footer: "[github.com/fdzul](https://github.com/fdzul)"
+    code-copy: true
+    center-title-slide: false
+highlight-style: a11y
+code-link: true
+height: 1080
+width: 1600
+execute: 
+  eval: true
+  echo: true
+---
+
+<h1>[Lineamientos de la Vigilancia Entomologica del Oropouche en]{style="color:#003300;"}<br>en México</h1>
+
+<h2> </h2>
+
+<hr>
+<br> 
+<h3>[Dr. Felipe Dzul Manzanilla]{style="color:#620002;"} </h3>
+<br> 
+<h3>[Dr. Fabián Correa Morales]{style="color:#620002;"}</h3>
+<br> 
+<h3>[MC. Herón Huerta]{style="color:#620002;"}</h3>
+<br> 
+<h3>[MC. Eduardo Davalos-Becerril]{style="color:#620002;"}</h3>
+
+<h3> Date:   2025-05-08</h3>
+
+<br> 
+
+![](https://github.com/fdzul/entomological_surveillance_oropouche_mexico/blob/main/imagenes/logo.jpeg?raw=true){.absolute top="300" left="900" width="950"}
+
+```{r setup}
+#| echo: false
+library(sf)
+mapview::mapviewOptions(default = TRUE,
+                        basemaps.color.shuffle = FALSE)
+```
+
+## [Examen]{style="color:#003300;"}
+
+![](https://www.ioc.fiocruz.br/sites/default/files/culicoides_paraensis_maruim_colecao_dentro.jpg)
+
+
+## [Temario]{style="color:#003300;"}
+<hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
+
+
+### 1) Distribución de *Culicoides paraensis*
+
+### 2) Objetivo de la Vigilancia Entomológica de Oropouche
+
+### 3) Sitios de Estudio por Estado
+
+### 4) Número de CDCs por sitio
+
+### 5) Frecuencia de los estudios entomológicos
+
+### 6) Reporte y base de datos
+
+
+
+## [Distribución de *Culicoides Paraensis* en México]{.r-fit-text style="color:#003300;"}
+
+
+ 
+## [Información Básica para los Modelos de Nicho Ecológico]{.r-fit-text style="color:#003300;"}
+<hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
+
+![](soley_guardia_2024.jpg){fig-align="center" height="900"}
+
+
+
