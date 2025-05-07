@@ -153,16 +153,16 @@ mapview::mapview(xy,
 #| column: screen-inset-shaded
 #| out-width: "2000"
 #| out-height: "900"
-
+library(sf)
+library(leaflet)
+mapview::mapviewOptions(default = TRUE,
+                        basemaps.color.shuffle = FALSE)
 # Step 1. load the C. paraensis Dataset ####
 load("~/Dropbox/projects/ETV/culicoides_paraensis/8.RData/records/culicoides_paraensis.RData")
 # Step 1. load the maps ####
 paraensis <- terra::rast("/Users/felipedzul/Dropbox/projects/ETV/culicoides_paraensis/09.output/pred_culicoides_paraensis_bio_crop.tif")
 
-
 # Step 2. make ####
-edos <- rgeomex::AGEE_inegi19_mx
-#mpos <- rgeomex::AGEM_inegi19_mx
 
 
 mapview::mapview(paraensis,
@@ -174,11 +174,7 @@ mapview::mapview(paraensis,
         mapview::mapview(xy,
                          col.regions = "#4285F4",
                          color = "white",
-                        layer.name = "Culicoides parensis") +
-    mapview::mapview(edos,
-                     alpha.regions = 0.0,
-                     color = "gray80",
-                     col.regions = NA)
+                        layer.name = "Culicoides parensis")
 
 ```
 
