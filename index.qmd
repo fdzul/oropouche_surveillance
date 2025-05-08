@@ -146,7 +146,7 @@ mapview::mapview(xy,
 ```
 
  
-## [Nicho Ecológico de *Culicoides Paraensis* en México]{.r-fit-text style="color:#003300;"}
+## [Nicho Ecológico de *Culicoides paraensis* en México]{.r-fit-text style="color:#003300;"}
 <hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
 
 ```{r sdm_paraensis, echo=FALSE}
