@@ -55,7 +55,7 @@ execute:
 
    - Objetivo de la Vigilancia Entomológica de Oropouche en México
 
-   - Área de Estudio por Estado
+   - Área de Estudio.
 
    - Número de CDCs por sitio
 
@@ -240,3 +240,19 @@ DiagrammeR::grViz("digraph {
 
 ^[Uso sensato de los insecticidas. Modificado de WHO, 2002]
 
+
+## [Fases de la implementación de la Vigilancia Entomológica del Oropouche]{.r-fit-text style="color:#003300;"}
+<hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
+
+
+### Fase I
+
+   - Colecta del CENAPRECE & el Estado de sitios prioritarios
+   
+ 
+### Fase II
+
+  - Colecta del Estado en sitios prioritarios
+
+   
+   
