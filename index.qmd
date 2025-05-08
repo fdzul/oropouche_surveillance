@@ -9,6 +9,7 @@ format:
     center-title-slide: false
 highlight-style: a11y
 code-link: true
+chalkboard: true
 height: 1080
 width: 1600
 execute: 
