@@ -198,10 +198,19 @@ mapview::mapview(paraensis,
 ## [Objetivo de la Vigilancia Entomológica del Oropouche]{.r-fit-text style="color:#003300;"}
 <hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
 
-
 <br> 
 
-### La Vigilancia Entomológica del Oropouche es conceptualizada como el estudio sistemático de *Culicoides paraensis* con la finalidad de generar información (datos) fidedigna que permita al programa de prevención y control de las arbovirosis plantear un manejo integrado de *Culicoides paraensis* basado en evidencia científica.
+### La Vigilancia Entomológica del Oropouche es conceptualizada como el estudio sistemático de *Culicoides paraensis* con la finalidad de generar información (datos) fidedigna que permita al programa de prevención y control de las arbovirosis plantear un manejo integrado de *Culicoides paraensis* basado en la ecología y biología del vector (evidencia científica).
 
 
+## [Preguntas de la Vigilancia Entomológica del Oropouche]{.r-fit-text style="color:#003300;"}
+<hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
+
+
+
+###  donde está *Culicoides paraensis* (distribución espacial) 
+
+### cuando está presente (distribución temporal) 
+
+### a que hora se alimenta (actividad horaria)
 
