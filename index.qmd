@@ -245,14 +245,24 @@ DiagrammeR::grViz("digraph {
 <hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
 
 
+<br> 
+
 ### Fase I
 
-   - Colecta del CENAPRECE & el Estado de sitios prioritarios
+   - Colecta del CENAPRECE & el Estado en sitios prioritarios.
    
- 
+<br> 
+<br> 
+
 ### Fase II
 
-  - Colecta del Estado en sitios prioritarios
+  - Colecta del Estado en sitios prioritarios y no prioritarios.
+  
+  
 
-   
+## [Fases de la implementación de la Vigilancia Entomológica del Oropouche]{.r-fit-text style="color:#003300;"}
+<hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
+
+
+
    
