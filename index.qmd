@@ -249,20 +249,38 @@ DiagrammeR::grViz("digraph {
 
 ### Fase I
 
-   - Colecta del CENAPRECE & el Estado en sitios prioritarios.
+   - Colecta del CENAPRECE & el Estado en sitios prioritarios en la Costa del Pacífico.
    
-<br> 
 <br> 
 
 ### Fase II
 
-  - Colecta del Estado en sitios prioritarios y no prioritarios.
+  - Colecta del Estado en sitios prioritarios en la costa del Golfo.
+  
+<br> 
+ 
+### Fase II
+
+  - Colecta en zonas cafetaleras, cacaotaleras y plataneras y sitios no prioritarios.
   
   
+ 
 ## [Sitios Prioritarios Vigilancia Entomológica del Oropouche]{.r-fit-text style="color:#003300;"}
 <hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
 
 
+```{r, echo=FALSE}
+#| column: screen-inset-shaded
+#| out-width: "2000"
+#| out-height: "900"
+# maps ###
+load("~/Dropbox/r_developments/r_talks/2025/oropouche_surveillance/data/geo_culicoides_paraensis.RData")
+
+y |>
+    sf::st_as_sf(coords = c("long", "lat"),
+                 crs = 4326) |>
+mapview::mapview(legend = FALSE)
+```
 
 
 
