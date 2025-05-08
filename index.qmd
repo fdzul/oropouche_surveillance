@@ -106,9 +106,12 @@ execute:
 
 ![](fig1.png){.absolute top="150" left="50" width="3500"}
 
-## [Conclusiónes de los estudios]{.r-fit-text style="color:#003300;"}
+## [Conclusion de los antecedentes]{.r-fit-text style="color:#003300;"}
 <hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
 
+### 1) El diagnóstico es pesimista para México.
+
+### 2) La vigilancia debe realizarse en todo México.
 
 
 ## [Registros de la presencia de *Culicoides paraensis* en México]{.r-fit-text style="color:#003300;"}
