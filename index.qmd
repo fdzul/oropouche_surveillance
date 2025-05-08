@@ -249,13 +249,13 @@ DiagrammeR::grViz("digraph {
 
 ### Fase I
 
-   - Colecta del CENAPRECE & el Estado en sitios prioritarios en la Costa del Pacífico.
+   - Colectas en sitios prioritarios en la Costa del Pacífico.
    
 <br> 
 
 ### Fase II
 
-  - Colecta del Estado en sitios prioritarios en la costa del Golfo.
+  - Colecta en sitios prioritarios en la costa del Golfo.
   
 <br> 
  
@@ -282,6 +282,22 @@ y |>
 mapview::mapview(legend = FALSE)
 ```
 
+
+## [Colecta de la Vigilancia Entomológica del Oropouche]{.r-fit-text style="color:#003300;"}
+<hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
+
+
+:::: {.columns}
+
+::: {.column width="40%"}
+![](https://lovely-licorice-326d63.netlify.app/talks/dipteros_imp_medica/cdc.jpg)
+:::
+
+::: {.column width="50%"}
+![](cdc_modify.HEIC)
+:::
+
+::::
 
 
    
