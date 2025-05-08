@@ -106,10 +106,16 @@ execute:
 
 ![](fig1.png){.absolute top="150" left="50" width="3500"}
 
-## [Conclusion de los antecedentes]{.r-fit-text style="color:#003300;"}
+## [Conclusión de los antecedentes]{.r-fit-text style="color:#003300;"}
 <hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
 
+<br> 
+
 ### 1) El diagnóstico es pesimista para México.
+
+<br> 
+
+<br> 
 
 ### 2) La vigilancia debe realizarse en todo México.
 
