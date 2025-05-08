@@ -30,11 +30,11 @@ execute:
 <h3>[MC. Herón Huerta]{style="color:#620002;"}</h3>
 <h3>[MC. Eduardo Davalos-Becerril]{style="color:#620002;"}</h3>
 <br> 
-<h3> Date:   2025-05-08</h3>
+<h3> Date: 2025-05-08</h3>
 
 <br> 
 
-![](https://github.com/fdzul/entomological_surveillance_oropouche_mexico/blob/main/imagenes/logo.jpeg?raw=true){.absolute top="300" left="900" width="950"}
+![](logo.jpeg){.absolute top="350" left="800" width="850"}
 
 
 
@@ -309,6 +309,7 @@ mapview::mapview(legend = FALSE)
 
 ### Lo ideal es determinar la estacionalidad, pero aceptable al menos una colecta en secas y lluvia.
 
+### Al menos tres días consecutivos de estudio.
 
 
 ## [Dios Botic]{style="color:#003300;"}
@@ -318,7 +319,7 @@ mapview::mapview(legend = FALSE)
 
 -   ***email*** : [felipe.dzul.m\@gmail.com]()
 
--   ***celular*** : [8139945623]()
+-   ***celular*** : [9999580167]()
 
 -   ***slides***: https://frolicking-wisp-42beea.netlify.app
 
