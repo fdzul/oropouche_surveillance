@@ -259,9 +259,10 @@ DiagrammeR::grViz("digraph {
   - Colecta del Estado en sitios prioritarios y no prioritarios.
   
   
-
-## [Fases de la implementación de la Vigilancia Entomológica del Oropouche]{.r-fit-text style="color:#003300;"}
+## [Sitios Prioritarios Vigilancia Entomológica del Oropouche]{.r-fit-text style="color:#003300;"}
 <hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
+
+
 
 
 

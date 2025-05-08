@@ -1,0 +1,37 @@
+
+
+tibble::tibble(localidad = c("Huixtla",
+                             "Tapachula",
+                             "Ariaga",
+                             "Salina Cruz",
+                             "Huatulco",
+                             "Puerto Angel",
+                             "Puerto Escondido",
+                             "Acapulco",
+                             "Zihuatanejo",
+                             "Lazaro Cardenas",
+                             "Manzanillo",
+                             "Puerto Vallarta",
+                             "San Blas",
+                             "Mazatlán",
+                             "Guaymas",
+                             "Puerto Peñasco",
+                             "La Paz",
+                             "San Jose los cabos",
+                             "Los Cabos San Lucas",
+                             "Ensenada"),
+               estado = c(rep("Chiapas", times = 3),
+                          rep("Oaxaca", times = 4),
+                          rep("Guerrero", times = 2),
+                          "Michoacan",
+                          "Colima",
+                          "Jalisco",
+                          "Nayarit",
+                          "Sinaloa", 
+                          "Sonora",
+                          "Sonora",
+                          rep("Baja California Sur", times = 3),
+                          "Baja California"))
+
+
+
