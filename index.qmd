@@ -34,7 +34,7 @@ execute:
 
 <br> 
 
-![](logo.jpeg){.absolute top="350" left="800" width="850"}
+![](logo.jpeg){.absolute top="350" left="800" width="750"}
 
 
 
@@ -250,19 +250,20 @@ DiagrammeR::grViz("digraph {
 
    - Colectas en sitios prioritarios en la Costa del Pacífico.
    
-<br> 
 
 ### Fase II
 
   - Colecta en sitios prioritarios en la costa del Golfo.
   
-<br> 
  
 ### Fase II
 
   - Colecta en zonas cafetaleras, cacaotaleras y plataneras y sitios no prioritarios.
   
-  
+ 
+### Fase II 
+ 
+  - Vigilancia Entomovirológica de Oropouche (en presencia de casos probables)
  
 ## [Sitios Prioritarios Vigilancia Entomológica del Oropouche]{.r-fit-text style="color:#003300;"}
 <hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
