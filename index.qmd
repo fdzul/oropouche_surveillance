@@ -26,11 +26,10 @@ execute:
 <h3>[Dr. Felipe Dzul Manzanilla]{style="color:#620002;"} </h3>
 <br> 
 <h3>[Dr. Fabián Correa Morales]{style="color:#620002;"}</h3>
-<br> 
+<h3>[MC. Eduardo Romero-Contreras]{style="color:#620002;"}</h3>
 <h3>[MC. Herón Huerta]{style="color:#620002;"}</h3>
-<br> 
 <h3>[MC. Eduardo Davalos-Becerril]{style="color:#620002;"}</h3>
-
+<br> 
 <h3> Date:   2025-05-08</h3>
 
 <br> 
@@ -298,6 +297,30 @@ mapview::mapview(legend = FALSE)
 :::
 
 ::::
+
+
+## [Colecta de la Vigilancia Entomológica del Oropouche]{.r-fit-text style="color:#003300;"}
+<hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
+
+<br> 
+
+### 10 CDCs modificadas, 1 Shannon, 1 Circle Trap, 1 BG sentinel.
+<br> 
+
+### Lo ideal es determinar la estacionalidad, pero aceptable al menos una colecta en secas y lluvia.
+
+
+
+## [Dios Botic]{style="color:#003300;"}
+<hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
+
+-   ***Bio*** : https://fdzul.github.io/web_site_fadm/
+
+-   ***email*** : [felipe.dzul.m\@gmail.com]()
+
+-   ***celular*** : [8139945623]()
+
+-   ***slides***: https://frolicking-wisp-42beea.netlify.app
 
 
    
