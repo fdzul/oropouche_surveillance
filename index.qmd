@@ -112,12 +112,15 @@ execute:
 <br> 
 
 ### 1) El diagnóstico es pesimista para México.
-
 <br> 
-
 <br> 
 
 ### 2) La vigilancia debe realizarse en todo México.
+<br> 
+<br> 
+
+### 3) La literatura asocia la presencia de *Culicoides paraensis* con cultivos de platano, cacao y cafe.
+
 
 
 ## [Registros de la presencia de *Culicoides paraensis* en México]{.r-fit-text style="color:#003300;"}
@@ -192,7 +195,7 @@ mapview::mapview(paraensis,
 ```
 
 
-## [felipe]{.r-fit-text style="color:#003300;"}
+## []{.r-fit-text style="color:#003300;"}
 <hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
 
 
